@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests-resources.sh
+${PODS_ROOT}/OTXCFramework/OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite

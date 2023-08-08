@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EB0B3DE4E2B1D8F03A8BF8 /* Pods_OpenTokSample_OpenTokSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C555A93254E0F47BD713B651 /* Pods_OpenTokSample_OpenTokSampleTests.framework */; };
+		AB5B611069DFDBE11175C880 /* Pods_OpenTokSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D869319396CAD4D47D23AB2 /* Pods_OpenTokSample.framework */; };
+		B9DAD86F2A82D94B00335178 /* OpenTokSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DAD8662A82D94B00335178 /* OpenTokSample.framework */; };
+		B9DAD8742A82D94B00335178 /* OpenTokSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DAD8732A82D94B00335178 /* OpenTokSampleTests.swift */; };
+		B9DAD8752A82D94B00335178 /* OpenTokSample.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DAD8692A82D94B00335178 /* OpenTokSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9DAD8702A82D94B00335178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9DAD85D2A82D94B00335178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9DAD8652A82D94B00335178;
+			remoteInfo = OpenTokSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C091BC1386189F14848D3C /* Pods-OpenTokSample-OpenTokSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample-OpenTokSampleTests.release.xcconfig"; path = "Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E1ABCBF6704B5297DF17AF4 /* Pods-OpenTokSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample.release.xcconfig"; path = "Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample.release.xcconfig"; sourceTree = "<group>"; };
+		2D869319396CAD4D47D23AB2 /* Pods_OpenTokSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTokSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC7C3ACA10D98B922BDECC4 /* Pods-OpenTokSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample.debug.xcconfig"; path = "Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample.debug.xcconfig"; sourceTree = "<group>"; };
+		8A51A8A2F7A8186ED5FC6399 /* Pods-OpenTokSample-OpenTokSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample-OpenTokSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9718183E12C89D5FD4228D56 /* Pods-OpenTokSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSampleTests.release.xcconfig"; path = "Target Support Files/Pods-OpenTokSampleTests/Pods-OpenTokSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DAD8662A82D94B00335178 /* OpenTokSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenTokSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAD8692A82D94B00335178 /* OpenTokSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTokSample.h; sourceTree = "<group>"; };
+		B9DAD86E2A82D94B00335178 /* OpenTokSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTokSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAD8732A82D94B00335178 /* OpenTokSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokSampleTests.swift; sourceTree = "<group>"; };
+		C555A93254E0F47BD713B651 /* Pods_OpenTokSample_OpenTokSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTokSample_OpenTokSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C956EAA04566D96600C87C /* Pods-OpenTokSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenTokSampleTests/Pods-OpenTokSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9DAD8632A82D94B00335178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B611069DFDBE11175C880 /* Pods_OpenTokSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DAD86B2A82D94B00335178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DAD86F2A82D94B00335178 /* OpenTokSample.framework in Frameworks */,
+				11EB0B3DE4E2B1D8F03A8BF8 /* Pods_OpenTokSample_OpenTokSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5196C90920DD77B8812B1CD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7C3ACA10D98B922BDECC4 /* Pods-OpenTokSample.debug.xcconfig */,
+				1E1ABCBF6704B5297DF17AF4 /* Pods-OpenTokSample.release.xcconfig */,
+				8A51A8A2F7A8186ED5FC6399 /* Pods-OpenTokSample-OpenTokSampleTests.debug.xcconfig */,
+				16C091BC1386189F14848D3C /* Pods-OpenTokSample-OpenTokSampleTests.release.xcconfig */,
+				D5C956EAA04566D96600C87C /* Pods-OpenTokSampleTests.debug.xcconfig */,
+				9718183E12C89D5FD4228D56 /* Pods-OpenTokSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9DAD85C2A82D94B00335178 = {
+			isa = PBXGroup;
+			children = (
+				B9DAD8682A82D94B00335178 /* OpenTokSample */,
+				B9DAD8722A82D94B00335178 /* OpenTokSampleTests */,
+				B9DAD8672A82D94B00335178 /* Products */,
+				5196C90920DD77B8812B1CD1 /* Pods */,
+				FBE43F8B1D27D2372CA9A93A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9DAD8672A82D94B00335178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9DAD8662A82D94B00335178 /* OpenTokSample.framework */,
+				B9DAD86E2A82D94B00335178 /* OpenTokSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9DAD8682A82D94B00335178 /* OpenTokSample */ = {
+			isa = PBXGroup;
+			children = (
+				B9DAD8692A82D94B00335178 /* OpenTokSample.h */,
+			);
+			path = OpenTokSample;
+			sourceTree = "<group>";
+		};
+		B9DAD8722A82D94B00335178 /* OpenTokSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DAD8732A82D94B00335178 /* OpenTokSampleTests.swift */,
+			);
+			path = OpenTokSampleTests;
+			sourceTree = "<group>";
+		};
+		FBE43F8B1D27D2372CA9A93A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D869319396CAD4D47D23AB2 /* Pods_OpenTokSample.framework */,
+				C555A93254E0F47BD713B651 /* Pods_OpenTokSample_OpenTokSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B9DAD8612A82D94B00335178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DAD8752A82D94B00335178 /* OpenTokSample.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9DAD8652A82D94B00335178 /* OpenTokSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DAD8782A82D94B00335178 /* Build configuration list for PBXNativeTarget "OpenTokSample" */;
+			buildPhases = (
+				7B83EDF3D8BB3F965E19C931 /* [CP] Check Pods Manifest.lock */,
+				B9DAD8612A82D94B00335178 /* Headers */,
+				B9DAD8622A82D94B00335178 /* Sources */,
+				B9DAD8632A82D94B00335178 /* Frameworks */,
+				B9DAD8642A82D94B00335178 /* Resources */,
+				F646C5DE5C57A649B9F68D12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTokSample;
+			productName = OpenTokSample;
+			productReference = B9DAD8662A82D94B00335178 /* OpenTokSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9DAD86D2A82D94B00335178 /* OpenTokSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DAD87B2A82D94B00335178 /* Build configuration list for PBXNativeTarget "OpenTokSampleTests" */;
+			buildPhases = (
+				D3BD720DD1FBD09068EDC925 /* [CP] Check Pods Manifest.lock */,
+				B9DAD86A2A82D94B00335178 /* Sources */,
+				B9DAD86B2A82D94B00335178 /* Frameworks */,
+				B9DAD86C2A82D94B00335178 /* Resources */,
+				770E85E1217364273F7FBDC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9DAD8712A82D94B00335178 /* PBXTargetDependency */,
+			);
+			name = OpenTokSampleTests;
+			productName = OpenTokSampleTests;
+			productReference = B9DAD86E2A82D94B00335178 /* OpenTokSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9DAD85D2A82D94B00335178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9DAD8652A82D94B00335178 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B9DAD86D2A82D94B00335178 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B9DAD8602A82D94B00335178 /* Build configuration list for PBXProject "OpenTokSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9DAD85C2A82D94B00335178;
+			productRefGroup = B9DAD8672A82D94B00335178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9DAD8652A82D94B00335178 /* OpenTokSample */,
+				B9DAD86D2A82D94B00335178 /* OpenTokSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9DAD8642A82D94B00335178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DAD86C2A82D94B00335178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		770E85E1217364273F7FBDC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample-OpenTokSampleTests/Pods-OpenTokSample-OpenTokSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B83EDF3D8BB3F965E19C931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTokSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BD720DD1FBD09068EDC925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTokSample-OpenTokSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F646C5DE5C57A649B9F68D12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9DAD8622A82D94B00335178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DAD86A2A82D94B00335178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DAD8742A82D94B00335178 /* OpenTokSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9DAD8712A82D94B00335178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9DAD8652A82D94B00335178 /* OpenTokSample */;
+			targetProxy = B9DAD8702A82D94B00335178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9DAD8762A82D94B00335178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9DAD8772A82D94B00335178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9DAD8792A82D94B00335178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC7C3ACA10D98B922BDECC4 /* Pods-OpenTokSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBH8V487HB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.OpenTokSample;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9DAD87A2A82D94B00335178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1ABCBF6704B5297DF17AF4 /* Pods-OpenTokSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBH8V487HB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.OpenTokSample;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9DAD87C2A82D94B00335178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A51A8A2F7A8186ED5FC6399 /* Pods-OpenTokSample-OpenTokSampleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PBH8V487HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.OpenTokSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9DAD87D2A82D94B00335178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C091BC1386189F14848D3C /* Pods-OpenTokSample-OpenTokSampleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PBH8V487HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.OpenTokSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9DAD8602A82D94B00335178 /* Build configuration list for PBXProject "OpenTokSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DAD8762A82D94B00335178 /* Debug */,
+				B9DAD8772A82D94B00335178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9DAD8782A82D94B00335178 /* Build configuration list for PBXNativeTarget "OpenTokSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DAD8792A82D94B00335178 /* Debug */,
+				B9DAD87A2A82D94B00335178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9DAD87B2A82D94B00335178 /* Build configuration list for PBXNativeTarget "OpenTokSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DAD87C2A82D94B00335178 /* Debug */,
+				B9DAD87D2A82D94B00335178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9DAD85D2A82D94B00335178 /* Project object */;
+}
